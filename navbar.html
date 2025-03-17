@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Nav Bar</title>
+    </head>
+    <body>
+        <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: black;
+           
+        }
+        h3{
+            color: rgb(0, 173, 241);
+            text-align: center;
+            margin: 10px;
+            margin-top: 30px;
+            
+        }
+        div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        nav{
+            margin:20px;
+            padding: 20px;
+            width: 75%;
+            
+            border: rgb(0, 173, 241) 2px solid;
+            box-shadow:10px 0px 30px rgb(0, 173, 241);
+           
+        }
+        nav:hover{
+            animation: ani-1 5s ease infinite;
+        }
+        ul{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            padding: 10px;
+
+
+        }
+        a{
+            text-decoration: none;
+            padding: 10px;
+            color: rgb(0, 173, 241);
+            transition: all 1s ease-out;
+            border: 1px solid transparent;
+            text-shadow: 2px 0px 10px rgb(0, 173, 241)  ;
+           
+        }
+        a:hover{
+            background-color: rgb(0, 173, 241);
+            color: black;
+            box-shadow: 2px 0px 5px rgb(0, 173, 241);
+            animation: ani-2 1.5s ease infinite;
+            border-radius: 7px;
+            border:1px solid blue;
+        }
+       
+        </style>
+        <div>
+            <h3>Nav Bar</h3>
+        <nav>
+           
+                <ul>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                    <li><a href="#">GitHub</a></li>
+                </ul>
+        </nav>
+    </div>
+    </body>
+</html>
